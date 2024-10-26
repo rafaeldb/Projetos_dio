@@ -177,14 +177,16 @@ class Deposito(Transacao):
 
 def menu():
     menu = """\n
-    ================ MENU ================
-    [d]\tDepositar
-    [s]\tSacar
-    [e]\tExtrato
-    [nc]\tNova conta
-    [lc]\tListar contas
-    [nu]\tNovo usuário
-    [q]\tSair
+    -----------------------------------------
+    |               MENU                    |
+    | "d" - Depósito                        |
+    | "s" - Saque                           |
+    | "e" - Extrato                         |
+    | "nc" - Nova conta                     |
+    | "lc" - Listar contas                  |
+    | "nu" - Novo usuário                   |
+    | "q" - Sair                            |
+    -----------------------------------------
     => """
     return input(textwrap.dedent(menu))
 
